@@ -30,7 +30,7 @@ void optionalPositinalParams(int x, int y, [int z = 0]) {
 
 void namedOptinalParams({int? x, int? y, int z = 0}) {
   //in named params , we set optional params with ? or value
-  namedOptinalParams(y: 2, z: 3, x: 9);
+  namedOptinalParams(y: 2, x: 9);
 }
 
 void namedRequriedParams(int positional,

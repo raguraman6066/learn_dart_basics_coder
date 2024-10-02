@@ -25,6 +25,13 @@ void main() {
   //string interpolation
   print("hi $myString");
 
+  //string concatenation
+  String cat = "string " + "concatenation";
+  print(cat);
+
   String myExpression = "hello ${5 + 5 - 9 * 2}";
   print(myExpression);
+
+  int b = 10, c = 3;
+  print(b ~/ 3);
 }
